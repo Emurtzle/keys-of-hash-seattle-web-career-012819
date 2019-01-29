@@ -13,5 +13,6 @@ class Hash
       end
     end
     binding.pry
+    new_array
   end
 end
