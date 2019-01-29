@@ -7,6 +7,7 @@ class Hash
     arguments.each do |arg|
       self.each do |k, v|
         if k == arg
+          binding.pry
           new_array << k
         end
       end
